@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(30, 38%, 92%);   
+    height: 60vh;
+
+}
+#all_prime {
+    width: 35rem;
+    height: 30rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    position: relative;
+    left: 27vw;
+    top: -160vh;
+    visibility: hidden;
+}
+#prime_image {
+    width: 16rem;
+    position: relative;
+    top: 5vh;
+    left: 12vw;
+}
+#price_prime {
+    position: relative;
+    left: 15vw;
+    top: 6vh;
+    font-size: 1.9rem;
+    font-weight: 1000;
+    color: black;
+}
+#submit_prime {
+    width: 15rem;
+    height: 3rem;
+    position: relative;
+    top: 8vh;
+    left: 10vw;
+    font-size: 1.9rem;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#x_prime {
+    position: relative;
+    top: -55vh;
+    left: 20vw;
+    background: none;
+    border: none;
+    font-size: 1.9rem;
+}

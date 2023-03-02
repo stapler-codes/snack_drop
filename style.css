@@ -1,0 +1,63 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    
+}
+#prime_div {
+    max-width: 19rem;
+    max-height: 19rem;
+    background-color: white;
+    position: relative;
+    left: 5vw;
+    
+    border-radius: 1rem;
+    text-align: center;
+}
+@media (min-width: 40rem) {
+    #prime_div {
+        display: block;
+    }
+    #bang_div {
+        display: block;
+    }
+}
+#button_prime {
+    width: 15rem;
+    height: 3rem;
+    position: relative;
+    top: -2vh;
+    left: 0vw;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: orange;
+    font-size: 1.9rem;
+    font-weight: 1000;
+}
+#prime_text {
+    position: relative;
+    top: -2vh;
+}
+#bang_div {
+    max-width: 19rem;
+    max-height: 19rem;
+    background-color: white;
+    position: relative;
+    left: 35vw;
+    top: -46vh;
+    border-radius: 1rem;
+    text-align: center;
+}
+#button_bang {
+    width: 15rem;
+    height: 3.5rem;
+    position: relative;
+    top: -3.5vh;
+    left: 0vw;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: orange;
+    font-size: 1.9rem;
+    font-weight: 1000;
+}
+#bang_image_1 {
+    width: 10.5rem;
+}

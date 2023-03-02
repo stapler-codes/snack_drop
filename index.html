@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Snack Drop</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bang.css">
+  <link rel="stylesheet" href="prime.css">
+  <script src="https://unpkg.com/vue@3"></script>
+  
+</head>
+<body>
+    <div id="everything">
+      <div id="prime_div">
+        <img src="images/prime-removebg-preview.png" alt="prime image">
+          <h1 id="prime_text">Prime</h1>
+          <button id="button_prime" onclick="show_prime()">Buy</button>
+      </div>
+      <div id="bang_div">
+        <img src="images/bang-removebg-preview (1).png" alt="bang image" id="bang_image_1">
+          <h1 id="prime_text">Bang</h1>
+          <button id="button_bang" onclick="show_bang()">Buy</button>
+      </div>
+    </div>
+    <div id="all_bang">
+      <div id="everything_bang">
+        <img src="images/bang-removebg-preview (1).png" alt="bang image" id="bang_image">
+        <h2 id="price_bang">120,000 LBPH</h2>
+        <a href="https://wa.me/96181843838?text=I Want Bang, (Your Name Here)" target="_blank"><button id="submit_bang">Buy</button></a>
+        <button id="x_bang" onclick="hide_bang()">x</button>
+      </div>
+  </div>
+  <div id="all_prime">
+    <div id="everything_prime">
+      <img src="images/prime-removebg-preview.png" alt="prime image" id="prime_image">
+      <h2 id="price_prime">700,000 LBPH</h2>
+      <a href="https://wa.me/96181843838?text=I Want Prime, (Your Name Here)" target="_blank"><button id="submit_bang">Buy</button></a>
+      <button id="x_prime" onclick="hide_prime()">x</button>
+    </div>
+</div>
+  <script src="index.js"></script>
+  <script>
+    function show_bang() {
+      document.getElementById("all_bang").style.visibility = "visible";
+    }
+    function hide_bang() {
+      document.getElementById("all_bang").style.visibility = "hidden"
+    }
+    function show_prime() {
+      document.getElementById("all_prime").style.visibility = "visible"
+    }
+    function hide_prime() {
+      document.getElementById("all_prime").style.visibility = "hidden"
+    }
+  </script>
+</body>
+</html>
