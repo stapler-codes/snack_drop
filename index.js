@@ -6,6 +6,6 @@ timer = setInterval(function() {
         document.getElementById("bang_div").style.top = "7vh"
         document.getElementById("bang_div").style.left = "5vw"
         document.getElementById("x_bang").style.left = "28vw"
-        document.getElementsByTagName('body').style.width = "50vw"
+        document.getElementsByTagName('body').style.width = "45vw"
     }
 }, 100)
