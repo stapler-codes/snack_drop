@@ -8,6 +8,6 @@ timer = setInterval(function() {
         document.getElementById("x_bang").style.left = "28vw"
         document.body.style.width = '60vw';
         document.getElementById("all_bang").style.left = "0vw"
-        document.getElementById("all_bang").style.width = "0rem"
+        document.getElementById("all_bang").style.width = "3rem"
     }
 }, 100)
